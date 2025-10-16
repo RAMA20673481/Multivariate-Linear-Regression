@@ -32,7 +32,7 @@ Display the coefficients and intercept of the model, and make a prediction for g
 #Reg No: 212224240129
 import pandas as pd
 from sklearn import linear_model
-df=pd.read_csv(r"C:\Users\admin\car(1).csv")
+df=pd.read_csv(r"C:\Users\admin\Downloads\car(1).csv")
 x=df[["Volume","Weight"]]
 y=df["CO2"]
 reg=linear_model.LinearRegression()
